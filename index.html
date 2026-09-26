@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Nagesha G — Developer Portfolio">
+<title>Nagesha G | Digital Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="three-bg"></canvas>
+<div class="grid-overlay"></div>
+<div class="noise"></div>
+
+<header class="topbar">
+  <a class="brand" href="#top"><span class="brand-symbol"></span>NAGESHA<span class="brand-accent">/</span></a>
+  <nav id="main-nav">
+    <a href="#about">About</a><a href="#layers">Layers</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#journey">Journey</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="nav-tools">
+    <button id="theme-toggle" class="icon-button" aria-label="Toggle theme">LIGHT</button>
+    <a href="assets/My_Resume.pdf" download class="resume-button">Resume</a>
+    <button id="menu-toggle" class="menu-button" aria-label="Open menu">MENU</button>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero page-width">
+  <div class="hero-copy reveal">
+    <div class="eyebrow"><span></span> Hello Everyone</div>
+    <div class="mono mini-title">WELCOME TO MY PERSONAL WEBSITE</div>
+    <h1>Building ideas into <span class="blue">useful</span> digital <span class="pink">experiences.</span></h1>
+    <p class="hero-text">I am Nagesha G <br>A developer, learner and builder who enjoys understanding problems, creating practical software and improving through real projects.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="#projects">Explore Projects <b>↗</b></a>
+      <a class="button secondary" href="#contact">Start a Conversation</a>
+    </div>
+    <div class="hero-numbers">
+      <div><b>25+</b><span>Projects</span></div><div><b>2026</b><span>Graduate</span></div><div><b>Grow Tech</b><span>Current Internship</span></div>
+    </div>
+  </div>
+
+  <div class="hero-art reveal">
+    <div class="shape-ring ring-1"></div><div class="shape-ring ring-2"></div><div class="shape-ring ring-3"></div>
+    <div class="profile-frame"><img src="assets/profile.jpg" alt="Nagesha G"></div>
+    <div class="orbit-dot dot-blue"></div><div class="orbit-dot dot-pink"></div><div class="orbit-dot dot-yellow"></div>
+    <div class="data-card card-top"><span>BUILD STATUS</span><strong>Always Building</strong></div>
+    <div class="data-card card-bottom"><span>APPROACH</span><strong>Learn / Build / Improve</strong></div>
+  </div>
+</section>
+
+<section id="about" class="section page-width">
+  <div class="section-title"><span class="pink"><h3>01</h3></span><div><h4>ABOUT</h4><h2>A simple person with a <em class="pink">builder mindset.</em></h2></div></div>
+  <div class="about-grid">
+    <div>
+      <p class="big-copy">I like taking something confusing, breaking it into smaller pieces and gradually turning it into something understandable and useful.</p>
+      <p class="body-copy">My journey began with Computer Applications and has grown through Software  Development, Full-Stack Projects, Experimentation, and continuous learning. I learn by building taking ideas, turning them into working solutions, and improving them with every project.
+
+This website is more than a portfolio. It is a growing record of what I’ve learned, what I’ve built, and where I’m heading next.
+</p>
+      <div class="principles"><span>Curiosity</span><span>Practice</span><span>Iteration</span><span>Consistency</span></div>
+    </div>
+    <div class="facts">
+      <div><small>EDUCATION</small><b>BCA</b><p>Nagarjuna College of Management Studies</p></div>
+      <div><small>GRADUATION</small><b>2026</b><p>CGPA 9.4</p></div>
+      <div><small>CURRENT</small><b>MERN Intern</b><p>Dr. Reddy's Foundation — Grow Tech Institute</p></div>
+      <div><small>PREVIOUS</small><b>Python / Django</b><p>Mavi Technologies</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="layers" class="section page-width">
+  <div class="section-title"><span class="green"><h3>02</h3></span><div><h4>BUILD LAYERS</h4><h2>How an idea moves from <em class="green">thought to product.</em></h2></div></div>
+  <div class="layer-stack">
+    <article class="layer l1"><div class="layer-number"><h2>01</h2></div><div><h4>FOUNDATION</h4><h3>Understand</h3><p>Know the problem before trying to solve it.</p></div><div class="visual-shape circle-system"></div></article>
+    <article class="layer l2"><div class="layer-number"><h2>02</h2></div><div><h4>THINKING</h4><h3>Break Down</h3><p>Split a difficult problem into small, testable pieces.</p></div><div class="visual-shape triangle-system"></div></article>
+    <article class="layer l3"><div class="layer-number"><h2>03</h2></div><div><h4>BUILDING</h4><h3>Create</h3><p>Turn the plan into interfaces, software and working experiments.</p></div><div class="visual-shape diamond-system"></div></article>
+    <article class="layer l4"><div class="layer-number"><h2>04</h2></div><div><h4>ITERATION</h4><h3>Improve</h3><p>Test, observe, fix and repeat until the system becomes better.</p></div><div class="visual-shape signal-system"></div></article>
+  </div>
+</section>
+<section id="journey" class="section page-width">
+  <div class="section-title"><span class="blue"><h3>03</h3></span><div><h4>EXPERIENCE</h4><h2>This is My <em class="blue">Journey.......</em></h2></div></div>
+  <div class="timeline">
+    <div class="timeline-item left"><div class="timeline-card"><small>2026 · CURRENT INTERNSHIP</small><h3>MERN Stack Intern</h3><p>Dr. Reddy's Foundation — Grow Tech Institute, Marathahalli.</p></div><div class="timeline-node"></div></div>
+
+    <div class="timeline-item right"><div class="timeline-node orange-node"></div><div class="timeline-card"><small>2026 · INTERNSHIP</small><h3>Python With SQL</h3><p>Besant Technologies<br>February 2026 - March 2026</p></div></div>
+
+    <div class="timeline-item left"><div class="timeline-node"></div><div class="timeline-card"><small>2026 · STUDENT INTERN</small><h3>AI Powred Full Stack Development</h3><p>Mevi Technologies<br>January 2026 - February 2026</p></div></div>
+    
+    <div class="timeline-item right"><div class="timeline-card"><small>2025 . AI DEVELOPMENT INTERN</small><h3>AI Development  And Prompt Engineering Intern</h3><p>Sphereworks <br>September 2025 - November 2025</p></div><div class="timeline-node yellow-node"></div></div>
+    
+  </div>
+</section>
+
+<section id="projects" class="section page-width">
+  <div class="section-title"><span class="orange"><h3>04</h3></span><div><h4>PROJECTS</h4><h2>Things I've <em class="orange">Built.</em></h2></div></div>
+  <div class="project-grid">
+    <article class="project"><span>01</span><small>SYSTEM TOOL</small><h3>ComputeLens</h3><p>GPU cost and utilization auditing concept that identifies idle resources and estimates wasted spend.</p><div class="tags"><i>Audit</i><i>Cost</i><i>CLI</i></div><a href="https://github.com/Nagesha-G/ComputerLens.git" class="project-link">GitHub / Demo ↗</a></article>
+    <article class="project"><span>02</span><small>AI APPLICATION</small><h3>AI Resume Analyzer</h3><p>Django based resume analysis project with ATS style scoring and resume insights.</p><div class="tags"><i>Resume</i><i>Analysis</i><i>Web</i></div><a href="https://github.com/Nagesha-G/AI-Resume-Analyzer.git" class="project-link">GitHub / Demo ↗</a></article>
+    
+    <article class="project"><span>03</span><small>PRODUCTIVITY</small><h3>Focus India</h3><p>Productivity timer concept inspired by Indian festivals and focused work sessions.</p><div class="tags"><i>Focus</i><i>Timer</i></div><a href="https://github.com/Nagesha-G/Focus-India.git" class="project-link">GitHub / Demo ↗</a></article>
+    <article class="project"><span>04</span><small>PERSONAL TOOL</small><h3>Expense Tracker</h3><p>Student-friendly expense tracker concept using browser storage and visual reports.</p><div class="tags"><i>Finance</i><i>Charts</i></div><a href="https://github.com/Nagesha-G/PET---Personal-expense-tracker.git" class="project-link">GitHub / Demo ↗</a></article>
+  
+
+  <article class="project">
+  <span>05</span>
+  <small>INDUSTRIAL TOOL</small>
+  <h3>Lab Calibration System</h3>
+  <p>CMS for tracking laboratory equipment, calibration schedules, records, and status.</p>
+  <div class="tags">
+    <i>Calibration</i>
+    <i>Management</i>
+  </div>
+  <a href="https://github.com/Nagesha-G/Lab-Calibration-System.git" class="project-link"><br>GitHub / Demo ↗</a>
+  </article>
+
+  <article class="project">
+  <span>06</span>
+  <small>DATA TOOL</small>
+  <h3>CSV Data Handling</h3>
+  <p>Practical data-handling tool for reading, cleaning, processing, filtering, and analyzing CSV files.</p>
+  <div class="tags">
+    <i>Python</i>
+    <i>CSV</i>
+  </div>
+  <a href="https://github.com/Nagesha-G/CSV-Data-Handling.git" class="project-link"><br>GitHub / Demo ↗</a>
+</article>
+</div>
+
+</section>
+
+<section id="skills" class="section page-width">
+  <div class="section-title">
+    <span class="pink">05</span>
+
+    <div>
+      <h4>SKILLS & TECHNOLOGIES</h4>
+      <h2>Tools I use to <em class="pink">build.</em></h2>
+    </div>
+  </div>
+
+  <div class="language-grid">
+
+
+    <!-- Currently Learning -->
+    <div class="language-card">
+      <div class="skill-info">
+        <h4 class="skill-blue">Currently Learning</h4>
+        <span>Growing every day</span>
+      </div>
+  
+
+      <p>Machine Learning · AI Agents · Cloud</p>
+
+      <div class="skill-circle"
+           style="--progress: 55%; --skill-color: #84d6da;">
+        <span>55%</span>
+      </div>
+    </div>
+
+    <!-- Programming -->
+    <div class="language-card">
+      <div class="skill-info">
+        <h4 class="skill-pink">Programming</h4>
+        <span>Core development</span>
+      </div>
+
+      <p>Python · JavaScript · C · C++</p>
+
+      <div class="skill-circle"
+           style="--progress: 85%; --skill-color: #ff6fae;">
+        <span>85%</span>
+      </div>
+    </div>
+
+
+    <!-- Web Development -->
+    <div class="language-card">
+      <div class="skill-info">
+        <h4 class="skill-green">Web Development</h4>
+        <span>Frontend & backend</span>
+      </div>
+
+      <p>HTML · CSS · JavaScript · Django · MERN</p>
+
+      <div class="skill-circle"
+           style="--progress: 90%; --skill-color: #78e08f;">
+        <span>90%</span>
+      </div>
+    </div>
+
+
+    <!-- Databases -->
+    <div class="language-card">
+      <div class="skill-info">
+        <h4 class="skill-orange">Databases</h4>
+        <span>Data & storage</span>
+      </div>
+
+      <p>MySQL · MongoDB · SQLite</p>
+
+      <div class="skill-circle"
+           style="--progress: 75%; --skill-color: #ff9f43;">
+        <span>75%</span>
+      </div>
+    </div>
+
+
+    <!-- Development Tools -->
+    <div class="language-card">
+      <div class="skill-info">
+        <h4 class="skill-blue">Development Tools</h4>
+        <span>Build & collaboration</span>
+      </div>
+
+      <p>Git · GitHub · VS Code </p>
+
+      <div class="skill-circle"
+           style="--progress: 90%; --skill-color: #5dade2;">
+        <span>90%</span>
+      </div>
+    </div>
+
+
+    <!-- AI -->
+    <div class="language-card">
+      <div class="skill-info">
+        <h4 class="skill-yellow">AI & Productivity</h4>
+        <span>AI assisted development</span>
+      </div>
+
+      <p>ChatGPT · Claude · Perplixity · Gemini AI</p>
+
+      <div class="skill-circle"
+           style="--progress: 85%; --skill-color: #f6d365;">
+        <span>85%</span>
+      </div>
+    </div>
+
+
+    
+
+  </div>
+</section>
+
+<section id="contact" class="section contact-section page-width">
+  <div class="section-title"><span class="yellow">06</span><div><h4>CONTACT</h4><h2>Send a message. <em class="yellow">Let's connect.</em></h2></div></div>
+  <div class="contact-grid">
+    <form id="contact-form" class="contact-form">
+      <label>Name<input id="sender-name" required placeholder="Your name"></label>
+      <label>Email<input id="sender-email" type="email" required placeholder="You@example.com"></label>
+      <label>Subject<input id="sender-subject" required placeholder="What would you like to discuss?"></label>
+      <label>Message<textarea id="sender-message" required rows="6" placeholder="Write your message..."></textarea></label>
+      <button type="submit" class="button primary">Prepare Message <b>→</b></button>
+      
+    </form>
+    <div class="contact-side">
+      <div class="contact-link"><small>EMAIL</small><a id="email-link" href="mailto:your-email@example.com">demo@gmail.com</a></div>
+      <div class="contact-link"><small>GITHUB</small><a id="github-link" href="#" target="_blank">github.com/yourusername</a></div>
+      <div class="contact-link"><small>LINKEDIN</small><a id="linkedin-link" href="#" target="_blank">linkedin.com/in/yourusername</a></div>
+      <div class="address"><small>ADDRESS</small><p>Bengaluru, Karnataka, India.</p></div>
+      <a class="cv-button" href="assets/Nagesha_G_Demo_Resume.pdf" download>Download CV / Resume</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="running-bar"><div class="running-track"><span>QUICK LEARNER</span><i></i><span>RESOURCEFUL</span><i></i><span>PROBLEM SOLVER</span><i></i><span>ALWAYS BUILDING</span><i></i><span>QUICK LEARNER</span><i></i><span>RESOURCEFUL</span><i></i><span>PROBLEM SOLVER</span><i></i><span>ALWAYS BUILDING</span><i></i></div></div>
+  <div class="footer-bottom page-width  "><div> </div><div>© NAGESHA G<br></div><div> </div>
+</footer>
+
+<button id="back-top" class="back-top" aria-label="Back to top">↑</button>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
